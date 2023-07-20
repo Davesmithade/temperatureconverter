@@ -1,0 +1,129 @@
+.box {
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.txth1 {
+  color: rgba(59, 86, 58, 0.984);
+  background: none;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.temperatureBgbox {
+  min-height: 85vh;
+  margin: 0 auto 0 auto;
+  padding: 0 auto 0 auto;
+  height: 450px;
+  width: 300px;
+  background: rgba(0, 128, 117, 0.737);
+  border-radius: 20px;
+  box-shadow: 0px 8px 24px 8px rgba(52, 51, 51, 0.616);
+}
+
+.cold{
+  background: rgba(70, 70, 227, 0.658);
+  transition: 0.3s all linear;
+}
+
+
+.hot{
+  background: rgb(219, 83, 33);
+  transition: 0.3s all linear;
+}
+
+.temproundcounter {
+  margin: 25px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  border: 2px solid white;
+  /* background: rgba(0, 128, 117, 0.737); */
+  box-shadow: 0px 2px 24px 2px rgba(52, 51, 51, 0.616);
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+}
+
+.deg {
+  font-size: 32px;
+}
+
+.tempcontrollerr{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tempcontrollerr .hot{
+  margin: 25px auto 0 auto;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  background: rgb(219, 83, 33);
+  height: 60px;
+  width: 150px;
+  box-shadow: 0px 2px 24px 2px rgba(52, 51, 51, 0.616);
+}
+
+.tempcontrollerr .cold{
+  margin: 25px auto 0 auto;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  background: rgba(13, 13, 200, 0.658);
+  height: 60px;
+  width: 150px;
+  box-shadow: 0px 2px 24px 2px rgba(52, 51, 51, 0.616);
+}
+
+.tempcontroller {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.input{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.input input{
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.tempcontroller button{
+  margin: 25px auto 0 auto;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  background: rgba(107, 107, 184, 0.658);
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  box-shadow: 0px 2px 24px 2px rgba(52, 51, 51, 0.616);
+}
