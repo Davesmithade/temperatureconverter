@@ -10,11 +10,11 @@
   color: rgba(59, 86, 58, 0.984);
   background: none;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 26px;
 }
 
 .temperatureBgbox {
-  min-height: 85vh;
+  /* min-height: 85vh; */
   margin: 0 auto 0 auto;
   padding: 0 auto 0 auto;
   height: 450px;
