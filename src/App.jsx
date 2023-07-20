@@ -56,9 +56,9 @@ const App = () => {
           </div>
         </div>
 
-        <div className="input">
+        {/* <div className="input">
           <input type="text" placeholder="Input a celcius here...." />
-        </div>
+        </div> */}
       </div>
     </div>
   );
